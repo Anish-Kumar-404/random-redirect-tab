@@ -6,8 +6,8 @@
     <title>Random Website Redirect</title>
     <script>
         const urls = [
+            atob('aHR0cHM6Ly9yb2FkYXAuc2gvYmFja2VuZA=='),
             atob('aHR0cHM6Ly9nZXRvbmVwZXJjZW50LmNsdWIvdG9vbHM='),
-            atob('aHR0cHM6Ly9yb2FkYXAuc2gvYmFja2VuZA==')
         ];
         const randomUrl = urls[Math.floor(Math.random() * urls.length)];
         window.location.href = randomUrl;
